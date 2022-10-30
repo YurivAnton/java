@@ -6,7 +6,6 @@
 		<!-- <script>
 			alert('Привет, мир!');
 		</script> -->
-		<script src="script.js?v=1"></script>
 		<!-- <script src="script1.js"></script>
 		<script src="script2.js"></script> -->
 	</head>
@@ -14,6 +13,8 @@
     <?php
         echo '<a href="/">back</a><br>';
     ?>
-		моя первая программа
+		моя первая программа<br>
 	</body>
+	<script src="script.js?v=1"></script>
+	<script src="scriptObj.js?v=1"></script>
 </html>
