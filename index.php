@@ -17,4 +17,6 @@
 	</body>
 	<script src="script.js?v=1"></script>
 	<script src="scriptObj.js?v=1"></script>
+	<script src="scriptConditions.js?v=1"></script>
+	<script src="scriptLoop.js?v=1"></script>
 </html>
