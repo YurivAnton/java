@@ -1,8 +1,405 @@
 "use strict";
+//137
+/*
+for (let i = 1; i <= 100; i++) {
+    console.log(i);
+}
+
+for (let i = 100; i > 0; i--) {
+    console.log(i);
+}
+
+for (let i = 1; i <= 100; i++) {
+    if (i % 2 == 0) {
+        console.log(i);
+    }
+}
+
+let arr = [];
+for (let i = 1; i <= 10; i++) {
+    arr.push('x');
+}
+console.log(arr);
+
+let arr = [];
+for (let i = 1; i <= 10; i++) {
+    arr.push(i);
+}
+console.log(arr);
+
+let arr = [1, -2, 3, 22, 44, 55];
+for (let elem of arr) {
+    if (elem > 0 && elem < 10) {
+        console.log(elem);
+    }
+}
+let arr = [1, 3, 54, 6];
+for (let elem of arr) {
+    if (elem == 5) {
+        console.log('+++');
+        break;
+    } else {
+        console.log('---');
+    }
+}
+
+let arr = [1, 3, 5, 6];
+let res = 0;
+for (let elem of arr) {
+    res += elem;
+}
+console.log(res);
+
+let arr = [1, 2];
+let res = 0;
+for (let elem of arr) {
+    res += elem ** 2;
+}
+console.log(res);
+
+let arr = [1, 3, 6, 6];
+let res = 0;
+for (let elem of arr) {
+    res += elem;
+}
+console.log(res / arr.length);
+
+let num = 5;
+let factor = 1;
+for (let i = 1; i <= num; i++) {
+    factor *= i;
+}
+console.log(factor);
+
+let arr = [];
+for (let i = 10; i > 0; i--) {
+    arr.push(i);
+}
+console.log(arr);
+
+let arr = [1, 2, 3, 4, -5, -6, -7];
+let sum = 0;
+for (let elem of arr) {
+    if (elem > 0) {
+        sum += elem;
+    }
+}
+console.log(sum);
+
+let arr = [10, 20, 30, 50, 235, 3000];
+for (let elem of arr) {
+    if (String(elem)[0] == 1 || String(elem)[0] == 2 || String(elem)[0] == 5) {
+        console.log(elem);
+    }
+}
+
+let arr = [1, 2, 3, 4, -5, -6, -7];
+for (let i = arr.length - 1; i >= 0; i--) {
+    console.log(arr[i]);
+}
+
+let arr = [1, 1, 3, 3, -5, -6, -7];
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] == i) {
+        console.log(arr[i]);
+    }
+}
+
+let arr = [1, 1, 3, 3, -5, -6, -7];
+for (let elem of arr) {
+    //document.write(elem + '<br>');
+    document.write('<p>' + elem + '</p>');
+}
+
+let week = ['pon', 'viv', 'ser', 'chet', 'piat', 'sub', 'ned'];
+for (let i = 0; i < week.length; i++) {
+    if (i == 5 || i == 6) {
+        document.write('<b>' + week[i] + '</b> ');
+    } else {
+        document.write(week[i] + ' ');
+    }
+}
+
+let week = ['pon', 'viv', 'ser', 'chet', 'piat', 'sub', 'ned'];
+let day = 2;
+for (let i = 0; i < week.length; i++) {
+    if (i == day) {
+        document.write('<i>' + week[i] + '</i> ');
+    } else {
+        document.write(week[i] + ' ');
+    }
+}
+
+let obj = {
+    employee1: 100,
+    employee2: 200,
+    employee3: 300,
+    employee4: 400,
+    employee5: 500,
+    employee6: 600,
+    employee7: 700,
+};
+
+for (let elem in obj) {
+    if (obj[elem] <= 400) {
+        obj[elem] *= 1.1;
+    }
+}
+console.log(obj);
+
+let arr1 = [1, 2, 3, 4, 5];
+let arr2 = [6, 7, 8, 9, 10];
+let obj = {};
+for (let i = 0; i < arr1.length; i++) {
+    obj[arr1[i]] = arr2[i];
+}
+console.log(obj);
+let sumKeys = 0;
+let sumValues = 0;
+for (let elem in obj) {
+    sumKeys += +elem;
+    sumValues += obj[elem];
+}
+console.log(sumKeys / sumValues);
+
+let obj = { 'a': 1, 'b': 2, 'c': 3, 'd': 4, 'e': 5 };
+let keys = [];
+let values = [];
+for (let elem in obj) {
+    keys.push(elem);
+    values.push(obj[elem]);
+}
+console.log(keys);
+console.log(values);
+
+let obj = {
+    1: 125,
+    2: 225,
+    3: 128,
+    4: 356,
+    5: 145,
+    6: 281,
+    7: 452,
+};
+let arr = [];
+for (let elem in obj) {
+    if (String(obj[elem])[0] == 1 || String(obj[elem])[0] == 2) {
+        arr.push(obj[elem]);
+    }
+}
+console.log(arr);
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+let obj = {};
+for (let i = 1; i <= arr.length; i++) {
+    obj[i] = arr[i - 1];
+}
+console.log(obj);
+
+let arr = ['a', 'b', 'c', 'd', 'e'];
+let obj = {};
+for (let i = 1; i <= arr.length; i++) {
+    obj[arr[i - 1]] = i;
+}
+console.log(obj);
+*/
+//136
+/*
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+
+for (let i = 10; i >= 0; i--) {
+    console.log(i);
+}
+
+for (let i = 10; i >= 0; i--) {
+    console.log(i);
+}
+
+let i = 0;
+
+while (i <= 10) {
+    console.log(i);
+    i++;
+}
+
+let res = 0;
+
+for (let i = 1; i <= 10; i++) {
+    res += i;
+}
+
+console.log(res);
+
+let res = 1;
+
+for (let i = 1; i <= 10; i++) {
+    res *= i;
+}
+
+console.log(res);
+
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
+
+for (let elem of arr) {
+    sum += +elem;
+}
+
+console.log(sum);
+
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
+
+for (let elem of arr) {
+    sum += +elem;
+}
+
+console.log(sum);
+
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
+
+for (let elem of arr) {
+    sum += +elem;
+}
+
+console.log(sum);
+
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+    sum += +arr[i];
+}
+
+console.log(sum);
+
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+    sum += +arr[i];
+}
+
+console.log(sum);
+
+let arr = ['1', '2', '3', '4', '5'];
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+    sum += +arr[i];
+}
+
+console.log(sum);
+
+let arr = [1, 2, 3, 4, 5];
+let newArr = [];
+
+for (let elem of arr) {
+    newArr.push(elem ** 2);
+}
+
+console.log(newArr);
+
+let arr = [];
+
+for (let i = 1; i <= 5; i++) {
+    arr.push(i);
+}
+
+console.log(arr);
+
+let obj = { a: 1, b: 2, c: 3 };
+let sum = 0;
+
+for (let elem in obj) {
+    sum += obj[elem];
+}
+
+console.log(sum);
+
+let obj = { a: 1, b: 2, c: 3 };
+let sum = 0;
+
+for (let key in obj) {
+    sum += obj[key];
+}
+
+console.log(sum);
+
+let arr = [1, 2, 3, 4, 5];
+let res = '';
+
+for (let elem of arr) {
+    if (elem === 3) {
+        res = '+++';
+        break;
+    } else {
+        res = '---';
+    }
+}
+
+console.log(res);
+
+let arr = [];
+for (let i = 1; i <= 5; i++) {
+    arr.push(i);
+}
+
+console.log(arr);
+
+let arr = [1, 2, 3, 4, 5];
+let res = false;
+
+for (let elem of arr) {
+    if (elem === 3) {
+        res = true;
+        break;
+    }
+}
+
+console.log(res);
+
+let arr = [1, 2, 3, 4, 5];
+
+for (let elem of arr) {
+    if (elem % 2 == 0) {
+        console.log(elem);
+    }
+}
+
+let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let res = [];
+for (let elem of arr) {
+    if (elem % 2 != 0) {
+        res.push(elem);
+    }
+}
+
+console.log(res);
+ */
+//135
+/*
+let obj = { a: 10, b: 20, c: 30, d: 40, e: 50 };
+let sum = 0;
+
+for (let elem in obj) {
+    if (String(obj[elem])[0] === '1' || String(obj[elem])[0] === '2') {
+        sum += +obj[elem];
+    }
+}
+
+console.log(sum);
+ */
 //133
-
-
-
+/*
+let arr = [1, 2, 3, 4, 5];
+for (let i = 0; i < arr.length - 1; i++) {
+    console.log(arr[i + 1] + arr[i]);
+}
+ */
 //132
 /*
 let str = 'Дана строка. Подсчитайте сколько раз в ней встречается каждый из символов.';
