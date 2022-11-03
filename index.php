@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Моя первая программа</title>
+		<title>Моя перша програма</title>
 		<!-- <script>
 			alert('Привет, мир!');
 		</script> -->
@@ -13,10 +13,12 @@
     <?php
         echo '<a href="/">back</a><br>';
     ?>
-		моя первая программа<br>
+		моя перша програма<br>
 	</body>
 	<script src="script.js?v=1"></script>
 	<script src="scriptObj.js?v=1"></script>
 	<script src="scriptConditions.js?v=1"></script>
 	<script src="scriptLoop.js?v=1"></script>
+	<script src="scriptMulti.js?v=1"></script>
+	<script src="scriptStandartMethods.js?v=1"></script>
 </html>
