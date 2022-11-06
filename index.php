@@ -21,4 +21,6 @@
 	<script src="scriptLoop.js?v=1"></script>
 	<script src="scriptMulti.js?v=1"></script>
 	<script src="scriptStandartMethods.js?v=1"></script>
+	<script src="scriptCustomFunctions.js?v=1"></script>
+	<script src="scriptAdvancedTheoryOnFunctions.js?v=1"></script>
 </html>
