@@ -1,4 +1,8 @@
 .colored {
+    color: green;
+}
+
+.alert {
     color: red;
 }
 
