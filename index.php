@@ -13,10 +13,100 @@
 	<body>
     <?php
         echo '<a href="/">back</a><br>';
+		echo '<a href="/java/index.html">index.html</a><br>';
     ?>
 		моя перша програма<br>
+		<!-- 269 -->
+		<!-- <div id="elem" data-text="str">text</div>
+
+		<div data-num="1">text</div>
+		<div data-num="2">text</div>
+		<div data-num="3">text</div>
+		<div data-num="4">text</div>
+		<div data-num="5">text</div>
+
+		<input id="button" type="submit" value="counter" data-count="0">
+		<p id="counter"></p>
+		<input id="button1" type="submit" value="show count">
+
+		<input id="elem2" data-length="5">
+
+		<input id="elem3" data-min="5" data-max="10">
+
+		<div id="elem4" data-product-price="1000" data-product-amount="5">
+			товар яблоки
+		</div>
+
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p>
+		<p>text</p> -->
+		<!-- 268 -->
+		<!-- <div id="parent">
+			<p class="www">text</p>
+			<p class="www">text</p>
+			<p class="www">text</p>
+			<p class="ggg">text</p>
+			<p class="ggg">text</p>
+			<p class="ggg">text</p>
+		</div> -->
+		<!-- 267 -->
+		<!-- <div id="elem"></div>
+
+		<ul>
+			<li>text</li>
+			<li>text</li>
+			<li>text</li>
+			<li>text</li>
+			<li>text</li>
+		</ul>
+
+		<p class="www">elem 1</p>
+		<p class="www">elem 2</p>
+		<p class="www">elem 3</p> -->
 		<!-- 266 -->
-		
+		<!-- <ul id="elem">
+			<li>text1</li>
+			<li>text2</li>
+			<li>text3</li>
+			<li>text4</li>
+			<li>text5</li>
+		</ul>
+
+		<div>
+			<ul>
+				<li>text</li>
+				<li>text</li>
+				<li id="elem1">text</li>
+				<li>text</li>
+				<li>text</li>
+			</ul>
+		</div>
+
+		<header>
+			<div>
+				<p>
+					<span id="elem2"></span>
+				</p>
+			</div>
+		</header>
+
+		<header>
+			<div class="www">
+				<p class="www">
+					<span id="elem3"></span>
+				</p>
+			</div>
+		</header>
+
+		<ul>
+			<li>text1</li>
+			<li>text2</li>
+			<li id="elem4">text3</li>
+			<li>text4</li>
+			<li>text5</li>
+		</ul> -->
 		<!-- 265 -->
 		<!-- <p id="elemP">text</p>
 		<input id="button" type="submit" value="перечерк">
@@ -189,5 +279,5 @@
 	<script src="scriptIteratingMethods.js?v=21"></script>
 	<script src="scriptSpreadRest.js?v=21"></script>
 	<script src="scriptDate.js?v=21"></script>
-	<script src="scriptDom.js?=3"></script>
+	<script src="scriptDom.js?=5"></script>
 </html>
