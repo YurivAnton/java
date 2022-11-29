@@ -811,7 +811,7 @@ faktorial.addEventListener('click', function () {
     res.textContent = result;
 }) */
 
-let num1 = document.querySelector('#num1');
+/* let num1 = document.querySelector('#num1');
 let num2 = document.querySelector('#num2');
 let num3 = document.querySelector('#num3');
 let button = document.querySelector('#button');
@@ -824,10 +824,6 @@ button.addEventListener('click', function () {
     let b = num2.value;
     let c = num3.value;
     let deskreminant = b * b - 4 * a * c;
-    let test = 10 - 12;
-    console.log(test);
-    console.log(b);
-    console.log(a);
     if (deskreminant == 0) {
         x1 = x2 = -b / 2 * a;
     }
@@ -836,4 +832,4 @@ button.addEventListener('click', function () {
         x2 = (-b - Math.sqrt(deskreminant)) / (2 * a);
     }
     res.textContent = 'x1 = ' + x1 + '   ' + 'x2 = ' + x2;
-})
+}) */
