@@ -123,9 +123,27 @@ elem2.addEventListener('input', function () {
 }) */
 //282
 //1
-let select = document.querySelector('#select');
+/*let select = document.querySelector('#select');
 let elemP = document.querySelector('#elemP');
 let button = document.querySelector('#button');
 button.addEventListener('click', function () {
     elemP.innerHTML = select.value;
+})*/
+//2
+/*let select = document.querySelector('#select');
+select.addEventListener('change', function(){
+    let date = new Date(select.value, 1, 29);
+    if(date.getDate() == 29){
+        alert('+++');
+    }
+   // alert(date);
+})*/
+//3
+let select = document.querySelector('#select');
+select.addEventListener('change', function(){
+    if(select.value == 6 || select.value == 7){
+        alert('weekend');
+    } else {
+        alert('work day');
+    }
 })
