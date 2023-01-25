@@ -13,3 +13,71 @@
 .weight {
     font-weight: bold;
 }
+
+/* ul {
+    padding: 30px;
+    border: 1px solid red;
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 20px;
+    border: 1px dashed black;
+} */
+#elem1 {
+    padding-top: 50px;
+    height: 300px;
+    width: 300px;
+    background-color: green;
+}
+
+#elem2 {
+    margin-left: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+/* 296
+div,
+ul,
+li {
+    padding: 20px;
+}
+
+div {
+    border: 1px solid red;
+}
+
+ul {
+    border: 1px solid orange;
+}
+
+li {
+    border: 1px solid green;
+}
+ */
+/* 297
+#block:not(.active) {
+    display: none;
+} */
+/* 316/7 */
+#elemP {
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+}
