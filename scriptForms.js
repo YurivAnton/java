@@ -139,11 +139,67 @@ select.addEventListener('change', function(){
    // alert(date);
 })*/
 //3
-let select = document.querySelector('#select');
+/* let select = document.querySelector('#select');
 select.addEventListener('change', function(){
     if(select.value == 6 || select.value == 7){
         alert('weekend');
     } else {
         alert('work day');
     }
+}) */
+//283
+//1
+/* let select = document.querySelector('#select');
+let date = new Date();
+for (let item of select) {
+    if (item.value == date.getMonth()) {
+        select.value = item.value;
+    }
+} */
+//284
+//1
+/* let select = document.querySelector('#select');
+let num = document.querySelector('#num');
+num.addEventListener('blur', function () {
+    for (let option of select) {
+        if ((num.value - Number(1)) == option.value) {
+            select.value = num.value - Number(1);
+        }
+    }
+}) */
+//2
+/* let select = document.querySelector('#select');
+let date = new Date();
+for (let option of select) {
+    if (option.value == date.getDay()) {
+        select.value = option.value;
+    }
+} */
+//285
+//1
+/* let select = document.querySelector('#select');
+for (let option of select) {
+    option.innerHTML += option.value;
+} */
+//286
+//1, 2, 3, 4
+/* let select = document.querySelector('#select');
+let button = document.querySelector('#button');
+let button1 = document.querySelector('#button1');
+for (let option of select) {
+    if (option.selected) {
+        option.text += '!';
+    } else {
+        option.text += '?';
+    }
+}
+
+button.addEventListener('click', function () {
+    let option = select[select.length - 1];
+    option.selected = true;
 })
+
+button1.addEventListener('click', function () {
+    select[select.selectedIndex].text += '!';
+    alert(select[select.selectedIndex].text);
+}) */
